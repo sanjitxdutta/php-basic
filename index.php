@@ -102,6 +102,35 @@
 
             // Logical operators
 
+            // and (&&)
+            // or (||)
+            // xor
+            // !
+
+            //  Data types in php
+            //  1. String
+            echo "<br>";
+            $var = "This is a string";
+            echo var_dump($var);
+
+            //  2. Integer
+            echo "<br>";
+            $var = 123;
+            echo var_dump($var);
+
+            //  3. Float
+            echo "<br>";
+            $var = 123.123;
+            echo var_dump($var);
+
+            //  4. Boolean
+            echo "<br>";
+            $var = true;
+            echo var_dump($var);
+
+            //  5. Array
+            //  6. Object
+
         ?>
     </div>
 </body>

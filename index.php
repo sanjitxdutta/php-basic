@@ -9,7 +9,22 @@
     <div class="container">
         This is my first php website.
         <?php
-            echo "Hello world and this is printed using php"
+            echo "Hello world and this is printed using php";
+
+            //  Single line comments
+
+            /*THis
+            is
+            a
+            multi-line
+            comment  */
+
+            $variable1 = 34;
+            $variable2 = 25;
+
+            echo $variable1;
+            echo $variable2;
+            echo $variable1 + $variable2;
         ?>
     </div>
 </body>

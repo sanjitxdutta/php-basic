@@ -25,6 +25,7 @@
         THis is a container
         <br>
         <?php
+            // if-else
             $age = 7;
             if ($age > 18){
                 echo "You can drive";
@@ -33,6 +34,16 @@
             } else {
                 echo "You can not drive";
             }
+
+            echo "<br>";
+
+            //  array
+            $languages = array("Python", "c", "java");
+            echo $languages[1];
+            echo "<br>";
+
+            //  array-methods
+            echo count($languages);
         ?>
     </div>
 </body>

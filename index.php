@@ -131,6 +131,11 @@
             //  5. Array
             //  6. Object
 
+            // Constants
+            define ('PI', 3.14);
+            echo "<br>";
+            echo PI;
+
         ?>
     </div>
 </body>
